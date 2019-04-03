@@ -43,6 +43,7 @@ CONTACT-FORM
 		background-color: $tertiary-color;
 		border-radius: $br;
 		transition: background-color $default-transition, color $default-transition;
+		border: none;
 		&:focus,
 		&:active {
 			outline:none;

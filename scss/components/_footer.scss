@@ -12,7 +12,7 @@ FOOTER
 	margin:em(20px) 0;
 	@include e(list) {
 		@include grid($just:center, $alignItem:center);
-		grid-template-columns: repeat(3, auto);
+		grid-template-columns: repeat(4, auto);
 		grid-gap: em(20px);
 		@include mq(medium) {
 			grid-gap: em(40px);

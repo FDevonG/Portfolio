@@ -31,7 +31,7 @@ MIXINS
 }
 
 //Border
-@mixin border ($width, $color: $border-color, $style : solid, $side : null) {
+@mixin border ($width, $color:$secondary-color, $style:solid, $side:null) {
 	@if ($side != null) {
 		border-#{$side} : $width $style $color;
 	} 

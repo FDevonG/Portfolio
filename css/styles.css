@@ -9,7 +9,7 @@ NORMALIZE
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800");
-/* line 15, ../scss/base/_normalize.scss */
+/* line 15, ../../Portfolio/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -21,14 +21,14 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 27, ../scss/base/_normalize.scss */
+/* line 27, ../../Portfolio/scss/base/_normalize.scss */
 body {
   margin: 0; }
 
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 35, ../scss/base/_normalize.scss */
+/* line 35, ../../Portfolio/scss/base/_normalize.scss */
 main {
   display: block; }
 
@@ -36,7 +36,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 44, ../scss/base/_normalize.scss */
+/* line 44, ../../Portfolio/scss/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -47,7 +47,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 57, ../scss/base/_normalize.scss */
+/* line 57, ../../Portfolio/scss/base/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -60,7 +60,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 68, ../scss/base/_normalize.scss */
+/* line 68, ../../Portfolio/scss/base/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -72,7 +72,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 80, ../scss/base/_normalize.scss */
+/* line 80, ../../Portfolio/scss/base/_normalize.scss */
 a {
   background-color: transparent; }
 
@@ -80,7 +80,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 89, ../scss/base/_normalize.scss */
+/* line 89, ../../Portfolio/scss/base/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -92,7 +92,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 99, ../scss/base/_normalize.scss */
+/* line 99, ../../Portfolio/scss/base/_normalize.scss */
 b,
 strong {
   font-weight: bolder; }
@@ -101,7 +101,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 109, ../scss/base/_normalize.scss */
+/* line 109, ../../Portfolio/scss/base/_normalize.scss */
 code,
 kbd,
 samp {
@@ -113,7 +113,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 120, ../scss/base/_normalize.scss */
+/* line 120, ../../Portfolio/scss/base/_normalize.scss */
 small {
   font-size: 80%; }
 
@@ -121,7 +121,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 129, ../scss/base/_normalize.scss */
+/* line 129, ../../Portfolio/scss/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -129,11 +129,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 137, ../scss/base/_normalize.scss */
+/* line 137, ../../Portfolio/scss/base/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 141, ../scss/base/_normalize.scss */
+/* line 141, ../../Portfolio/scss/base/_normalize.scss */
 sup {
   top: -0.5em; }
 
@@ -142,7 +142,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 152, ../scss/base/_normalize.scss */
+/* line 152, ../../Portfolio/scss/base/_normalize.scss */
 img {
   border-style: none; }
 
@@ -152,7 +152,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 164, ../scss/base/_normalize.scss */
+/* line 164, ../../Portfolio/scss/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -171,7 +171,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 180, ../scss/base/_normalize.scss */
+/* line 180, ../../Portfolio/scss/base/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -181,7 +181,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 190, ../scss/base/_normalize.scss */
+/* line 190, ../../Portfolio/scss/base/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -190,7 +190,7 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 199, ../scss/base/_normalize.scss */
+/* line 199, ../../Portfolio/scss/base/_normalize.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -200,7 +200,7 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 210, ../scss/base/_normalize.scss */
+/* line 210, ../../Portfolio/scss/base/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -211,7 +211,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 222, ../scss/base/_normalize.scss */
+/* line 222, ../../Portfolio/scss/base/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -221,7 +221,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 233, ../scss/base/_normalize.scss */
+/* line 233, ../../Portfolio/scss/base/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em; }
 
@@ -231,7 +231,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 244, ../scss/base/_normalize.scss */
+/* line 244, ../../Portfolio/scss/base/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -249,14 +249,14 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 257, ../scss/base/_normalize.scss */
+/* line 257, ../../Portfolio/scss/base/_normalize.scss */
 progress {
   vertical-align: baseline; }
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 265, ../scss/base/_normalize.scss */
+/* line 265, ../../Portfolio/scss/base/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -264,7 +264,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 274, ../scss/base/_normalize.scss */
+/* line 274, ../../Portfolio/scss/base/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -275,7 +275,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 284, ../scss/base/_normalize.scss */
+/* line 284, ../../Portfolio/scss/base/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -284,7 +284,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 294, ../scss/base/_normalize.scss */
+/* line 294, ../../Portfolio/scss/base/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -294,7 +294,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 303, ../scss/base/_normalize.scss */
+/* line 303, ../../Portfolio/scss/base/_normalize.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
@@ -302,7 +302,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 312, ../scss/base/_normalize.scss */
+/* line 312, ../../Portfolio/scss/base/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -314,14 +314,14 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 324, ../scss/base/_normalize.scss */
+/* line 324, ../../Portfolio/scss/base/_normalize.scss */
 details {
   display: block; }
 
 /*
  * Add the correct display in all browsers.
  */
-/* line 332, ../scss/base/_normalize.scss */
+/* line 332, ../../Portfolio/scss/base/_normalize.scss */
 summary {
   display: list-item; }
 
@@ -330,25 +330,25 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 343, ../scss/base/_normalize.scss */
+/* line 343, ../../Portfolio/scss/base/_normalize.scss */
 template {
   display: none; }
 
 /**
  * Add the correct display in IE 10.
  */
-/* line 351, ../scss/base/_normalize.scss */
+/* line 351, ../../Portfolio/scss/base/_normalize.scss */
 [hidden] {
   display: none; }
 
 /***************************************
 BASE
 ***************************************/
-/* line 6, ../scss/base/_base.scss */
+/* line 6, ../../Portfolio/scss/base/_base.scss */
 * {
   box-sizing: border-box; }
 
-/* line 10, ../scss/base/_base.scss */
+/* line 10, ../../Portfolio/scss/base/_base.scss */
 ul {
   list-style: none;
   padding: 0;
@@ -381,17 +381,17 @@ MIXINS
 /***************************************
 PLACEHOLDERS
 ***************************************/
-/* line 5, ../scss/utilities/_placeholders.scss */
+/* line 5, ../../Portfolio/scss/utilities/_placeholders.scss */
 .main-header, .section-heading,
 .work-heading, .website-description, .main-content, .main-footer, .footer-social-media__list--item {
   text-align: center; }
 
-/* line 9, ../scss/utilities/_placeholders.scss */
+/* line 9, ../../Portfolio/scss/utilities/_placeholders.scss */
 .nav__list .current-page a, .nav__list--item:hover a, .nav__list--item:focus a {
   color: #0D1F2B;
   text-decoration: underline; }
 
-/* line 14, ../scss/utilities/_placeholders.scss */
+/* line 14, ../../Portfolio/scss/utilities/_placeholders.scss */
 .contact-form__input, .contact-form__text-area {
   width: 100%;
   padding: 0.9375em;
@@ -399,16 +399,16 @@ PLACEHOLDERS
   border-radius: 10px;
   border: 2px solid #468592;
   color: #468592; }
-  /* line 22, ../scss/utilities/_placeholders.scss */
+  /* line 22, ../../Portfolio/scss/utilities/_placeholders.scss */
   .contact-form__input:focus, .contact-form__text-area:focus {
     outline: none;
     border: 2px solid #F8EFD2; }
-  /* line 26, ../scss/utilities/_placeholders.scss */
+  /* line 26, ../../Portfolio/scss/utilities/_placeholders.scss */
   .contact-form__input:hover, .contact-form__text-area:hover {
     outline: none;
     border: 2px solid #F8EFD2; }
 
-/* line 32, ../scss/utilities/_placeholders.scss */
+/* line 32, ../../Portfolio/scss/utilities/_placeholders.scss */
 .form-result-message, .notification-cancel-icon {
   padding: 0.625em;
   display: inline-block;
@@ -417,40 +417,40 @@ PLACEHOLDERS
 /***************************************
 TYPOGRAPGHY
 ***************************************/
-/* line 9, ../scss/components/_typography.scss */
+/* line 9, ../../Portfolio/scss/components/_typography.scss */
 #site-wrapper {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "Sans Serif";
   color: #0D1F2B;
   letter-spacing: 0.03125em; }
 
-/* line 15, ../scss/components/_typography.scss */
+/* line 15, ../../Portfolio/scss/components/_typography.scss */
 h1,
 h2,
 h3 {
   margin: 0; }
 
-/* line 21, ../scss/components/_typography.scss */
+/* line 21, ../../Portfolio/scss/components/_typography.scss */
 a {
   text-decoration: none; }
 
 /******************
 HEADER
 ******************/
-/* line 31, ../scss/components/_typography.scss */
+/* line 31, ../../Portfolio/scss/components/_typography.scss */
 .main-header a {
   color: #0D1F2B; }
 
-/* line 37, ../scss/components/_typography.scss */
+/* line 37, ../../Portfolio/scss/components/_typography.scss */
 .main-heading-wrapper a {
   display: inline-block; }
 
-/* line 42, ../scss/components/_typography.scss */
+/* line 42, ../../Portfolio/scss/components/_typography.scss */
 .main-heading {
   font-size: 2.5em;
   margin: 0.25em 0 0.125em;
   font-weight: 800; }
 
-/* line 48, ../scss/components/_typography.scss */
+/* line 48, ../../Portfolio/scss/components/_typography.scss */
 .tag-line {
   font-size: 1.5625em;
   margin-bottom: 0.4em; }
@@ -458,46 +458,46 @@ HEADER
 /******************
 NAV
 ******************/
-/* line 28, ../scss/utilities/_mixins.scss */
+/* line 28, ../../Portfolio/scss/utilities/_mixins.scss */
 .nav__list--item {
   font-size: 0.875em;
   padding: 0.3571428571em 0;
   font-weight: 400; }
-  /* line 68, ../scss/components/_typography.scss */
+  /* line 68, ../../Portfolio/scss/components/_typography.scss */
   .nav__list--item a {
     color: #468592; }
   @media (min-width: 769px) {
-    /* line 78, ../scss/components/_typography.scss */
+    /* line 78, ../../Portfolio/scss/components/_typography.scss */
     .nav__list--item a {
       color: #F8EFD2;
       font-size: 1.25em; }
-      /* line 79, ../scss/components/_typography.scss */
+      /* line 79, ../../Portfolio/scss/components/_typography.scss */
       .nav__list--item a:active {
         color: #F8EFD2; } }
 
 /******************
 SECTION
 ******************/
-/* line 99, ../scss/components/_typography.scss */
+/* line 99, ../../Portfolio/scss/components/_typography.scss */
 .section-heading {
   margin: 1.875em 0; }
 
 /******************
 PREVIOUS-WORK
 ******************/
-/* line 107, ../scss/components/_typography.scss */
+/* line 107, ../../Portfolio/scss/components/_typography.scss */
 .website-description {
   font-weight: 700;
   font-size: 0.875em;
   padding: 0;
   color: #468592; }
   @media (min-width: 769px) {
-    /* line 107, ../scss/components/_typography.scss */
+    /* line 107, ../../Portfolio/scss/components/_typography.scss */
     .website-description {
       padding: 2.5em;
       color: #F8EFD2; } }
 
-/* line 121, ../scss/components/_typography.scss */
+/* line 121, ../../Portfolio/scss/components/_typography.scss */
 .work-heading {
   margin-bottom: 0.9375em;
   color: #468592;
@@ -507,7 +507,7 @@ PREVIOUS-WORK
 /******************
 SKILLS
 ******************/
-/* line 132, ../scss/components/_typography.scss */
+/* line 132, ../../Portfolio/scss/components/_typography.scss */
 .skills {
   font-size: 0.75em;
   color: #468592; }
@@ -515,28 +515,28 @@ SKILLS
 /******************
 CONTACT-FORM
 ******************/
-/* line 141, ../scss/components/_typography.scss */
+/* line 141, ../../Portfolio/scss/components/_typography.scss */
 .form-sent-message {
   color: #4BB543; }
 
-/* line 145, ../scss/components/_typography.scss */
+/* line 145, ../../Portfolio/scss/components/_typography.scss */
 .form-not-sent-message {
   color: #B33A3A; }
 
-/* line 149, ../scss/components/_typography.scss */
+/* line 149, ../../Portfolio/scss/components/_typography.scss */
 .notification-cancel-icon {
   text-transform: uppercase;
   font-weight: 700;
   color: #468592;
   margin-left: 1.875em; }
-  /* line 154, ../scss/components/_typography.scss */
+  /* line 154, ../../Portfolio/scss/components/_typography.scss */
   .notification-cancel-icon:hover {
     color: #0D1F2B; }
 
 /******************
 FOOTER
 ******************/
-/* line 163, ../scss/components/_typography.scss */
+/* line 163, ../../Portfolio/scss/components/_typography.scss */
 .footer-text {
   display: inline-block;
   font-size: 0.75em;
@@ -545,13 +545,13 @@ FOOTER
 /***************************************
 GENERAL
 ***************************************/
-/* line 5, ../scss/components/_general.scss */
+/* line 5, ../../Portfolio/scss/components/_general.scss */
 html,
 body,
 #site-wrapper {
   height: 100%; }
 
-/* line 10, ../scss/components/_general.scss */
+/* line 10, ../../Portfolio/scss/components/_general.scss */
 #site-wrapper {
   display: flex;
   flex-direction: column; }
@@ -560,14 +560,14 @@ body,
 HEADER
 ***************************************/
 @media (min-width: 769px) {
-  /* line 5, ../scss/components/_header.scss */
+  /* line 5, ../../Portfolio/scss/components/_header.scss */
   .main-header {
     display: grid;
     justify-content: space-around;
     align-items: center;
     grid-template-columns: repeat(2, 1fr); } }
 
-/* line 12, ../scss/components/_header.scss */
+/* line 12, ../../Portfolio/scss/components/_header.scss */
 .main-heading-wrapper {
   background-color: #468592;
   padding: 1.25em; }
@@ -575,7 +575,7 @@ HEADER
 /***************************************
 DROPDOWN-NAV
 ***************************************/
-/* line 5, ../scss/components/_header-nav.scss */
+/* line 5, ../../Portfolio/scss/components/_header-nav.scss */
 .nav {
   overflow: hidden;
   height: 0;
@@ -583,7 +583,7 @@ DROPDOWN-NAV
   transition: height 0.5s;
   border-top: 1px solid #0D1F2B; }
   @media (min-width: 769px) {
-    /* line 5, ../scss/components/_header-nav.scss */
+    /* line 5, ../../Portfolio/scss/components/_header-nav.scss */
     .nav {
       height: 100%;
       border: none;
@@ -593,42 +593,42 @@ DROPDOWN-NAV
       align-items: center;
       transition: none;
       text-align: center; } }
-  /* line 23, ../scss/utilities/_mixins.scss */
+  /* line 23, ../../Portfolio/scss/utilities/_mixins.scss */
   .nav__list {
     background-color: #fff; }
-    /* line 25, ../scss/components/_header-nav.scss */
+    /* line 25, ../../Portfolio/scss/components/_header-nav.scss */
     .nav__list a {
       display: block;
       padding: 0.625em 0;
       width: 100%; }
     @media (min-width: 769px) {
-      /* line 23, ../scss/utilities/_mixins.scss */
+      /* line 23, ../../Portfolio/scss/utilities/_mixins.scss */
       .nav__list {
         background-color: #468592;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         max-width: 12.5em; } }
     @media (min-width: 769px) {
-      /* line 28, ../scss/utilities/_mixins.scss */
+      /* line 28, ../../Portfolio/scss/utilities/_mixins.scss */
       .nav__list--item {
         margin: 0 0.9375em; } }
 
-/* line 48, ../scss/components/_header-nav.scss */
+/* line 48, ../../Portfolio/scss/components/_header-nav.scss */
 .nav-icon-container {
   background-color: #0D1F2B;
   cursor: pointer; }
-  /* line 51, ../scss/components/_header-nav.scss */
+  /* line 51, ../../Portfolio/scss/components/_header-nav.scss */
   .nav-icon-container:hover, .nav-icon-container:focus, .nav-icon-container:active {
     background-color: #468592; }
-    /* line 55, ../scss/components/_header-nav.scss */
+    /* line 55, ../../Portfolio/scss/components/_header-nav.scss */
     .nav-icon-container:hover .nav-arrow, .nav-icon-container:focus .nav-arrow, .nav-icon-container:active .nav-arrow {
       fill: #0D1F2B; }
   @media (min-width: 769px) {
-    /* line 48, ../scss/components/_header-nav.scss */
+    /* line 48, ../../Portfolio/scss/components/_header-nav.scss */
     .nav-icon-container {
       display: none; } }
 
-/* line 64, ../scss/components/_header-nav.scss */
+/* line 64, ../../Portfolio/scss/components/_header-nav.scss */
 .nav-arrow {
   width: 1.5625em;
   padding: 0.3125em 0;
@@ -638,7 +638,7 @@ DROPDOWN-NAV
 /***************************************
 MAIN-SECTION
 ***************************************/
-/* line 5, ../scss/components/_main-content.scss */
+/* line 5, ../../Portfolio/scss/components/_main-content.scss */
 .main-content {
   width: 85%;
   margin: 0 auto;
@@ -648,30 +648,30 @@ MAIN-SECTION
 /***************************************
 PREVIOUS-WORK
 ***************************************/
-/* line 5, ../scss/components/_previous-work.scss */
+/* line 5, ../../Portfolio/scss/components/_previous-work.scss */
 .previous-work-container {
   display: grid;
   justify-content: space-around;
   grid-gap: 2.5em; }
   @media (min-width: 769px) {
-    /* line 5, ../scss/components/_previous-work.scss */
+    /* line 5, ../../Portfolio/scss/components/_previous-work.scss */
     .previous-work-container {
       grid-template-columns: repeat(2, 1fr); } }
   @media (min-width: 1200px) {
-    /* line 5, ../scss/components/_previous-work.scss */
+    /* line 5, ../../Portfolio/scss/components/_previous-work.scss */
     .previous-work-container {
       grid-template-columns: repeat(3, 1fr); } }
 
 @media (min-width: 769px) {
-  /* line 16, ../scss/components/_previous-work.scss */
+  /* line 16, ../../Portfolio/scss/components/_previous-work.scss */
   .work-orverlay-container {
     position: relative; }
-    /* line 21, ../scss/components/_previous-work.scss */
+    /* line 21, ../../Portfolio/scss/components/_previous-work.scss */
     .work-orverlay-container:hover .work-overlay, .work-orverlay-container:focus .work-overlay {
       height: 100%; } }
 
 @media (min-width: 769px) {
-  /* line 28, ../scss/components/_previous-work.scss */
+  /* line 28, ../../Portfolio/scss/components/_previous-work.scss */
   .work-overlay {
     position: absolute;
     background-color: rgba(70, 133, 146, 0.8);
@@ -684,7 +684,7 @@ PREVIOUS-WORK
     align-items: center;
     transition: height 0.5s; } }
 
-/* line 42, ../scss/components/_previous-work.scss */
+/* line 42, ../../Portfolio/scss/components/_previous-work.scss */
 .work-img {
   max-width: 100%;
   cursor: pointer; }
@@ -692,7 +692,7 @@ PREVIOUS-WORK
 /***************************************
 SKILLS
 ***************************************/
-/* line 23, ../scss/utilities/_mixins.scss */
+/* line 23, ../../Portfolio/scss/utilities/_mixins.scss */
 .skills__list {
   width: 100%;
   max-width: 37.5em;
@@ -700,16 +700,16 @@ SKILLS
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
   @media (min-width: 769px) {
-    /* line 23, ../scss/utilities/_mixins.scss */
+    /* line 23, ../../Portfolio/scss/utilities/_mixins.scss */
     .skills__list {
       grid-template-columns: repeat(3, 1fr);
       width: 75%; } }
   @media (min-width: 1200px) {
-    /* line 23, ../scss/utilities/_mixins.scss */
+    /* line 23, ../../Portfolio/scss/utilities/_mixins.scss */
     .skills__list {
       grid-template-columns: repeat(3, 1fr);
       width: 50%; } }
-  /* line 28, ../scss/utilities/_mixins.scss */
+  /* line 28, ../../Portfolio/scss/utilities/_mixins.scss */
   .skills__list--item {
     display: grid;
     align-items: center;
@@ -717,12 +717,12 @@ SKILLS
     grid-gap: 0.625em;
     padding: 0.625em; }
 
-/* line 33, ../scss/components/_skills.scss */
+/* line 33, ../../Portfolio/scss/components/_skills.scss */
 .skill-icon {
   justify-self: flex-end;
   width: 2.5em; }
 
-/* line 38, ../scss/components/_skills.scss */
+/* line 38, ../../Portfolio/scss/components/_skills.scss */
 .skills-text {
   justify-self: flex-start;
   display: inline-block;
@@ -731,7 +731,7 @@ SKILLS
 /***************************************
 CONTACT-FORM
 ***************************************/
-/* line 5, ../scss/components/_contact-form.scss */
+/* line 5, ../../Portfolio/scss/components/_contact-form.scss */
 #form-messages {
   overflow: hidden;
   margin: 0 auto 0.625em;
@@ -740,16 +740,16 @@ CONTACT-FORM
   background-color: #F8EFD2;
   display: inline-block; }
 
-/* line 18, ../scss/components/_contact-form.scss */
+/* line 18, ../../Portfolio/scss/components/_contact-form.scss */
 .notification-cancel-icon {
   cursor: pointer; }
 
-/* line 23, ../scss/utilities/_mixins.scss */
+/* line 23, ../../Portfolio/scss/utilities/_mixins.scss */
 .contact-form__text-area {
   height: 31.25em;
   overflow: auto;
   resize: none; }
-/* line 23, ../scss/utilities/_mixins.scss */
+/* line 23, ../../Portfolio/scss/utilities/_mixins.scss */
 .contact-form__submit {
   width: 100%;
   max-width: 37.5em;
@@ -757,15 +757,16 @@ CONTACT-FORM
   color: #468592;
   background-color: #F8EFD2;
   border-radius: 10px;
-  transition: background-color 0.5s, color 0.5s; }
-  /* line 46, ../scss/components/_contact-form.scss */
+  transition: background-color 0.5s, color 0.5s;
+  border: none; }
+  /* line 47, ../../Portfolio/scss/components/_contact-form.scss */
   .contact-form__submit:focus, .contact-form__submit:active {
     outline: none; }
-  /* line 50, ../scss/components/_contact-form.scss */
+  /* line 51, ../../Portfolio/scss/components/_contact-form.scss */
   .contact-form__submit:hover {
     background-color: #468592;
     color: #F8EFD2; }
-  /* line 54, ../scss/components/_contact-form.scss */
+  /* line 55, ../../Portfolio/scss/components/_contact-form.scss */
   .contact-form__submit:active {
     color: #468592;
     background-color: #F8EFD2; }
@@ -773,30 +774,30 @@ CONTACT-FORM
 /***************************************
 FOOTER
 ***************************************/
-/* line 5, ../scss/components/_footer.scss */
+/* line 5, ../../Portfolio/scss/components/_footer.scss */
 .main-footer {
   margin-top: 2.5em;
   border-top: 1px solid #0D1F2B; }
 
-/* line 11, ../scss/components/_footer.scss */
+/* line 11, ../../Portfolio/scss/components/_footer.scss */
 .footer-social-media {
   margin: 1.25em 0; }
-  /* line 23, ../scss/utilities/_mixins.scss */
+  /* line 23, ../../Portfolio/scss/utilities/_mixins.scss */
   .footer-social-media__list {
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(4, auto);
     grid-gap: 1.25em; }
     @media (min-width: 769px) {
-      /* line 23, ../scss/utilities/_mixins.scss */
+      /* line 23, ../../Portfolio/scss/utilities/_mixins.scss */
       .footer-social-media__list {
         grid-gap: 2.5em; } }
-  /* line 24, ../scss/components/_footer.scss */
+  /* line 24, ../../Portfolio/scss/components/_footer.scss */
   .footer-social-media a {
     display: inline-block; }
 
-/* line 29, ../scss/components/_footer.scss */
+/* line 29, ../../Portfolio/scss/components/_footer.scss */
 .social-icon {
   width: 3.125em;
   border-radius: 100%;
