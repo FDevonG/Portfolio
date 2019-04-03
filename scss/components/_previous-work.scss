@@ -1,0 +1,46 @@
+/***************************************
+PREVIOUS-WORK
+***************************************/
+
+.previous-work-container {
+	@include grid($just:space-around);
+	grid-gap: em(40px);
+	@include mq(medium) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	@include mq(large) {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+.work-orverlay-container {
+	@include mq(medium) {
+		position: relative;
+		&:hover,
+		&:focus {
+			.work-overlay {
+				height:100%;
+			}
+		}
+	}
+}
+
+.work-overlay {
+	@include mq(medium) {
+		position: absolute;
+		background-color: $transparent-blackBG;
+		width:100%;
+		height: 0;
+		top:0;
+		overflow: hidden;
+		@include flexy($just: center);
+		align-items: center;
+		transition: height $default-transition;
+	}
+}
+
+.work-img {
+	max-width: 100%;
+	cursor: pointer;
+}
+

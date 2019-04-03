@@ -1,0 +1,34 @@
+/***************************************
+FOOTER
+***************************************/
+
+.main-footer {
+	margin-top:em(40px);
+	@include border($width:1px, $color:$secondary-color, $side:top);
+	@extend %cen-tex;
+}
+
+.footer-social-media {
+	margin:em(20px) 0;
+	@include e(list) {
+		@include grid($just:center, $alignItem:center);
+		grid-template-columns: repeat(3, auto);
+		grid-gap: em(20px);
+		@include mq(medium) {
+			grid-gap: em(40px);
+		}
+		@include m(item) {
+			@extend %cen-tex;
+		}
+	}
+	a {
+		display: inline-block;
+	}
+}
+
+.social-icon {
+	width: em(50px);
+	border-radius: $br-round;
+	cursor: pointer;
+}
+

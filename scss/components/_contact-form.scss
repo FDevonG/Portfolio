@@ -1,0 +1,60 @@
+/***************************************
+CONTACT-FORM
+***************************************/
+
+#form-messages {
+	overflow: hidden;
+	margin: 0 auto em(10px);
+	height: 0;
+	transition: height $default-transition;
+	background-color: $tertiary-color;
+	display: inline-block;
+}
+
+.form-result-message {
+	@extend %contact-message-results;
+}
+
+.notification-cancel-icon {
+	@extend %contact-message-results;
+	cursor: pointer;
+}
+
+.contact-section {
+	
+}
+
+.contact-form {
+	
+	@include e (input) {
+		@extend %form-styles;
+	}
+	@include e (text-area) {
+		@extend %form-styles;
+		height: em(500px);
+		overflow: auto;
+		resize: none;
+	}
+	@include e(submit) {
+		width: 100%;
+		max-width: em(600px);
+		padding: em(10px) em(20px);
+		color: $primary-color;
+		background-color: $tertiary-color;
+		border-radius: $br;
+		transition: background-color $default-transition, color $default-transition;
+		&:focus,
+		&:active {
+			outline:none;
+		}
+		&:hover {
+			background-color: $primary-color;
+			color : $tertiary-color;
+		}
+		&:active {
+			color: $primary-color;
+			background-color: $tertiary-color;
+		}
+	}
+
+}

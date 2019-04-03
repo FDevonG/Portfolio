@@ -1,0 +1,36 @@
+/***************************************
+PLACEHOLDERS
+***************************************/
+
+%cen-tex { //used to center align text
+	text-align : center;
+}
+
+%small-nav-alt-state {
+	color: $secondary-color;
+	text-decoration:  underline;
+}
+
+%form-styles {
+	width:100%;
+//	padding-left: em(10px);
+	padding:em(15px);
+	margin: em(10px) 0;
+	border-radius: $br;
+	@include border($width:2px, $color:$primary-color);
+	color:$primary-color;
+	&:focus {
+		outline: none;
+		@include border($width:2px, $color:$tertiary-color);
+	}
+	&:hover {
+		outline: none;
+		@include border($width:2px, $color:$tertiary-color);
+	}
+}
+
+%contact-message-results {
+	padding:em(10px);
+	display:inline-block;
+	border-radius: $br;
+}

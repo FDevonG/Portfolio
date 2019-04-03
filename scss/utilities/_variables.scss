@@ -1,0 +1,52 @@
+/***************************************
+VARIABLES
+***************************************/
+
+/**********
+FONT
+**********/
+$font-url--google : "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800";
+$font-family      : 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'Sans Serif';
+$base--font-size  : 16px;
+
+$font-weight--light  : 300;
+$font-weight--normal : 400;
+$font-weight--bold   : 700;
+$font-weight--xbold  : 800;
+
+/**********
+COLORS
+**********/
+$white        : #fff;
+$fireFly      : #0D1F2B;
+$wedgeWood    : #468592;
+$citrineWhite : #F8EFD2;
+
+$primary-color       : $wedgeWood;
+$secondary-color     : $fireFly;
+$tertiary-color      : $citrineWhite;
+$transparent-blackBG : rgba(70, 133, 146, 0.8);
+
+$warning-red : #B33A3A;
+$success-green : #4BB543;
+
+/**********
+Transition
+**********/
+$default-transition : 0.5s;
+
+/**********
+MEDIA-QUERYS
+**********/
+
+$small-break  : 320px;
+$medium-break : 768px;
+$large-break  :1200px;
+
+/**********
+BORDER-RADIUS
+**********/
+
+$br       : 10px;
+$br-round : 100%;
+

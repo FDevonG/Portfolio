@@ -1,0 +1,170 @@
+/***************************************
+TYPOGRAPGHY
+***************************************/
+
+@if variable-exists (font-url--google) {
+	@import url($font-url--google);
+}
+
+#site-wrapper {
+	font-family: $font-family;
+	color: $secondary-color;
+	letter-spacing: em(.5px);
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/******************
+HEADER
+******************/
+
+.main-header {
+	@extend %cen-tex;
+	a {
+		color : $secondary-color; 
+	}
+}
+
+.main-heading-wrapper {
+	a {
+		display: inline-block;
+	}
+}
+
+.main-heading {
+	font-size: em(40px);
+	margin: em(10px, 40px) 0 em(5px, 40px);
+	font-weight: $font-weight--xbold;
+}
+
+.tag-line {
+	font-size: em(25px);
+	margin-bottom: em(10px, 25px);
+}
+
+/******************
+NAV
+******************/
+
+.nav {
+	@include e (list) {
+		.current-page {
+			a {
+				@extend %small-nav-alt-state;
+			}
+		}
+		@include m (item) {
+			font-size: em(14px);
+			padding: em(5px, 14px) 0;
+			font-weight: $font-weight--normal;
+			a {
+				color:$primary-color;
+			}
+			&:hover,
+			&:focus {
+				a {
+					@extend %small-nav-alt-state;
+				}
+			}
+			@include mq(medium) {
+				a {
+					&:active {
+						color: $tertiary-color;
+					}
+					color: $tertiary-color;
+					font-size: em(20px);
+				}
+			}
+		}
+	}
+}
+
+/******************
+SECTION
+******************/
+
+.section-heading,
+.work-heading {
+	@extend %cen-tex;
+}
+
+.section-heading {
+	margin: em(30px) 0;
+}
+
+/******************
+PREVIOUS-WORK
+******************/
+
+.website-description {
+	@extend %cen-tex;
+	font-weight: $font-weight--bold;
+	font-size: em(14px);
+	padding:0;
+	color: $primary-color;
+	
+	@include mq(medium) {
+		padding: em(40px);
+		color : $tertiary-color;
+	}
+	
+}
+
+.work-heading {
+	margin-bottom: em(15px);
+	color: $primary-color;
+	text-decoration: underline;
+	font-weight: $font-weight--xbold;
+}
+
+/******************
+SKILLS
+******************/
+
+.skills{
+	font-size: em(12px);
+	color: $primary-color;
+}
+
+/******************
+CONTACT-FORM
+******************/
+
+.form-sent-message {
+	color: $success-green;
+}
+
+.form-not-sent-message {
+	color: $warning-red;
+}
+
+.notification-cancel-icon {
+	text-transform: uppercase;
+	font-weight: $font-weight--bold;
+	color: $primary-color;
+	margin-left: em(30px);
+	&:hover {
+		color: $secondary-color;
+	}
+}
+
+/******************
+FOOTER
+******************/
+
+.footer-text {
+	display: inline-block;
+	font-size:em(12px);
+	margin-bottom:em(10px);
+}
+
+
+

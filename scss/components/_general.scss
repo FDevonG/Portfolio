@@ -1,0 +1,12 @@
+/***************************************
+GENERAL
+***************************************/
+
+html,
+body,
+#site-wrapper {
+	height: 100%;
+}
+#site-wrapper {
+	@include flexy($dir:column);
+}

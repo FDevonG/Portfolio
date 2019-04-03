@@ -1,0 +1,11 @@
+/***************************************
+MAIN-SECTION
+***************************************/
+
+.main-content {
+	@extend %cen-tex;
+	width: 85%;
+	margin: 0 auto;
+	max-width: em(1400px);
+	flex: 1 0 auto;
+}

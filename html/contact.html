@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Devon Gillis | Web Developer</title>
+		<link rel="stylesheet" href="../css/styles.css">
+	</head>
+
+	<body>
+		
+		<div id="site-wrapper">	
+			
+			<header class="main-header">
+
+				<div class="main-heading-wrapper">
+					<a href="index.html">
+						<h1 class="main-heading">Devon Gillis</h1>
+						<h2 class="tag-line">Web Developer</h2>
+					</a>
+				</div>
+
+				
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__list--item">
+							<a href="../index.html">Work</a>
+						</li>
+						<li class="nav__list--item current-page">
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="nav-icon-container">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451.847 451.847" class="nav-arrow"><path d="M225.923 354.706c-8.098 0-16.195-3.092-22.369-9.263L9.27 151.157c-12.359-12.359-12.359-32.397 0-44.751 12.354-12.354 32.388-12.354 44.748 0l171.905 171.915 171.906-171.909c12.359-12.354 32.391-12.354 44.744 0 12.365 12.354 12.365 32.392 0 44.751L248.292 345.449c-6.177 6.172-14.274 9.257-22.369 9.257z" class="active-path"/></svg>
+				</div>
+
+			</header>
+
+			<main class="main-content">
+				
+				<h2 class="section-heading">Send Me An Email</h2>
+				
+				<section class="contact-section">
+					<div id="form-messages"></div><!--Holds the message results message-->
+					<form id="contact-form" method="POST" action="mailer.php" class="contact-form">
+						<div class="field">
+							<input type="text" id="name" name="name" class="contact-form__input" placeholder="Your Name" required>
+						</div>
+
+						<div class="field">
+							<input type="email" id="email" name="email" class="contact-form__input" placeholder="Your Email" required>
+						</div>
+
+						<div class="field">
+							<textarea id="message" name="message" class="contact-form__text-area" placeholder="Your Message" required></textarea>
+						</div>
+
+						<div class="field">
+							<button type="submit" class="contact-form__submit">Send</button>
+						</div>
+					</form>
+						
+				</section>
+				
+			</main>
+
+			<footer class="main-footer">
+				<div class="footer-social-media">
+					<ul class="footer-social-media__list">
+						<li class="footer-social-media__list--item">
+							<a href="https://www.linkedin.com/in/devon-gillis-0b8851164/" target="_blank">
+								<img src="../img/icons/linkedin.svg" alt="Linkedin Icon" class="social-icon">
+							</a>
+						</li>
+						<li class="footer-social-media__list--item">
+							<a href="https://github.com/FDevonG" target="_blank">
+								<img src="../img/icons/github.svg" alt="Github Icon" class="social-icon">
+							</a>
+						</li>
+						<li class="footer-social-media__list--item">
+							<a href="https://twitter.com/FDevonG" target="_blank">
+								<img src="../img/icons/twitter.svg" alt="Twitter Icon" class="social-icon">
+							</a>
+						</li>
+					</ul>
+				</div>
+				<span class="footer-text">&copy; Devon Gillis 2019</span>
+			</footer>
+		
+		</div>	
+		
+		<script src="../js/app.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="../js/email.js"></script>
+		
+	</body>
+	
+</html>

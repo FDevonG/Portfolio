@@ -1,0 +1,42 @@
+/***************************************
+SKILLS
+***************************************/
+
+.skills {
+	
+	@include e(list) {
+		width:100%;
+		max-width: em(600px);
+		margin:auto;
+		@include grid();
+		grid-template-columns: repeat(2, 1fr);
+		
+		@include mq(medium) {
+			grid-template-columns: repeat(3, 1fr);
+			width:75%;
+		}
+		
+		@include mq(large) {
+			grid-template-columns: repeat(3, 1fr);
+			width:50%;
+		}
+		
+		@include m(item) {
+			@include grid($alignItem:center);
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: em(10px);
+			padding:em(10px);
+		}
+	}
+}
+
+.skill-icon {
+	justify-self: flex-end;
+	width:em(40px);
+}
+
+.skills-text {
+	justify-self: flex-start;
+	display: inline-block;
+	padding:em(10px), em(20px);
+}

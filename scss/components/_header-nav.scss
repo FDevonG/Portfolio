@@ -1,0 +1,73 @@
+/***************************************
+DROPDOWN-NAV
+***************************************/
+
+.nav {
+	overflow: hidden;
+	height: 0;
+	width: 100%;
+	transition: height $default-transition;
+	@include border($width:1px, $color:$secondary-color, $side:top);
+	
+	@include mq(medium) {
+		height: 100%;
+		border: none;
+		background-color: $primary-color;
+		@include grid($just:center, $alignItem:center);
+		transition: none;
+		text-align: center;
+	}
+	
+	@include e(list) {
+
+		background-color: $white;
+		
+		a {
+			display: block;
+			padding: em(10px) 0;
+			width:100%;
+		}
+		
+		@include mq(medium) {
+			background-color: $primary-color;
+			@include grid();
+			grid-template-columns: repeat(2, 1fr);
+			max-width: em(200px);
+		}
+		
+		@include m(item) {
+			@include mq(medium) {
+				margin: 0 em(15px);
+			}
+		}
+		
+	}
+	
+}
+
+.nav-icon-container {
+	background-color: $secondary-color;
+	cursor: pointer;
+	&:hover,
+	&:focus,
+	&:active{
+		background-color: $primary-color;
+		.nav-arrow {
+			fill: $secondary-color;
+		}
+	}
+	@include mq(medium) {
+		display: none;
+	}
+}
+
+.nav-arrow {
+	width: em(25px);
+	padding: em(5px) 0;
+	transition: transform $default-transition;
+	fill: $primary-color;
+}
+
+
+
+

@@ -1,0 +1,15 @@
+/***************************************
+HEADER
+***************************************/
+
+.main-header {
+	@include mq(medium) {
+		@include grid($just:space-around, $alignItem:center);
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.main-heading-wrapper {
+	background-color: $primary-color;
+	padding:em(20px);
+}
