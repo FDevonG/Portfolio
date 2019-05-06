@@ -1,7 +1,5 @@
 /*jshint esversion: 6 */
 
-const form = document.querySelector('#contact-form');
-
 const formSubmissionsResponses = document.querySelector('#form-messages');
 const nameInput = document.querySelector('#name');
 const emailInput = document.querySelector('#email');
