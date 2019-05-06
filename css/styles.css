@@ -777,10 +777,6 @@ CONTACT-FORM
     color: #468592;
     background-color: #F8EFD2; }
 
-/* line 60, ../../Portfolio/scss/components/_contact-form.scss */
-.red-placeholder-text::placeholder {
-  color: red; }
-
 /***************************************
 FOOTER
 ***************************************/

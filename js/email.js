@@ -22,16 +22,26 @@ document.querySelector('.contact-form__submit').addEventListener('click', event 
 	
 	if (!textValid(name)) {
 		formError('#name', 'Please enter your name');
+	} else {
+		clearFormError('#name');
 	}
 	
 	if (!emailValid(email)) {
 		formError('#email', 'Please enter a valid email');
+	} else {
+		clearFormError('#email');
 	}
+	
 	if (!textValid(subject)) {
 		formError('#subject', 'Please enter the subject');
+	} else {
+		clearFormError('#subject');
 	}
+	
 	if (!messageValid(message)) {
 		formError('#message', 'Please enter a message');
+	} else {
+		clearFormError('#message');
 	}
 	
 	if (textValid(name) && emailValid(email) && textValid(subject) && messageValid(message)) {
@@ -66,13 +76,25 @@ function sendEmail () {
 //prints error messages to the form
 function formError(id, message) {
 	'use strict';
+	if (document.querySelector('.' + id.substring(1) + 'Error')) {
+		document.querySelector('.' + id.substring(1) + 'Error').remove();
+	}
 	const matchingElement = document.querySelector(id);//find the element to append the new div before
-	matchingElement.placeholder = message;
-	matchingElement.classList.add('red-placeholder-text');
-//	const newMessageSpan = document.createElement('SPAN');//create a new div
-//	newMessageSpan.classList.add(id.substring(1) + 'Error');
-//	newMessageSpan.innerHTML = message;//add the message to the div
-//	matchingElement.parentElement.insertBefore(newMessageSpan, matchingElement);//insert the newly created div before the element it is meant for
+	const newMessageSpan = document.createElement('SPAN');//create a new div
+	newMessageSpan.classList.add(id.substring(1) + 'Error');
+	newMessageSpan.innerHTML = message;//add the message to the div
+	newMessageSpan.style.color = 'red';
+	newMessageSpan.style.display = 'inline-block';
+	newMessageSpan.style.float = 'left';
+	matchingElement.parentElement.insertBefore(newMessageSpan, matchingElement);//insert the newly created div before the element it is meant for
+}
+
+//clears errors that have been displayed
+function clearFormError (id) {
+	'use strict';
+	if (document.querySelector('.' + id.substring(1) + 'Error')) {
+		document.querySelector('.' + id.substring(1) + 'Error').remove();
+	}
 }
 
 function textValid(text) {//tests the values typed into text feilds
