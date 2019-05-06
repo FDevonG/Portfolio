@@ -551,7 +551,12 @@ body,
 #site-wrapper {
   height: 100%; }
 
-/* line 10, ../../Portfolio/scss/components/_general.scss */
+/* line 11, ../../Portfolio/scss/components/_general.scss */
+body {
+  opacity: 0;
+  transition: opacity 0.5s; }
+
+/* line 16, ../../Portfolio/scss/components/_general.scss */
 #site-wrapper {
   display: flex;
   flex-direction: column; }
@@ -738,9 +743,10 @@ CONTACT-FORM
   height: 0;
   transition: height 0.5s;
   background-color: #F8EFD2;
-  display: inline-block; }
+  display: inline-block;
+  border-radius: 10px; }
 
-/* line 18, ../../Portfolio/scss/components/_contact-form.scss */
+/* line 19, ../../Portfolio/scss/components/_contact-form.scss */
 .notification-cancel-icon {
   cursor: pointer; }
 
@@ -759,17 +765,21 @@ CONTACT-FORM
   border-radius: 10px;
   transition: background-color 0.5s, color 0.5s;
   border: none; }
-  /* line 47, ../../Portfolio/scss/components/_contact-form.scss */
+  /* line 44, ../../Portfolio/scss/components/_contact-form.scss */
   .contact-form__submit:focus, .contact-form__submit:active {
     outline: none; }
-  /* line 51, ../../Portfolio/scss/components/_contact-form.scss */
+  /* line 48, ../../Portfolio/scss/components/_contact-form.scss */
   .contact-form__submit:hover {
     background-color: #468592;
     color: #F8EFD2; }
-  /* line 55, ../../Portfolio/scss/components/_contact-form.scss */
+  /* line 52, ../../Portfolio/scss/components/_contact-form.scss */
   .contact-form__submit:active {
     color: #468592;
     background-color: #F8EFD2; }
+
+/* line 60, ../../Portfolio/scss/components/_contact-form.scss */
+.red-placeholder-text::placeholder {
+  color: red; }
 
 /***************************************
 FOOTER

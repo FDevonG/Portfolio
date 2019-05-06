@@ -9,6 +9,7 @@ CONTACT-FORM
 	transition: height $default-transition;
 	background-color: $tertiary-color;
 	display: inline-block;
+	border-radius: $br;
 }
 
 .form-result-message {
@@ -18,10 +19,6 @@ CONTACT-FORM
 .notification-cancel-icon {
 	@extend %contact-message-results;
 	cursor: pointer;
-}
-
-.contact-section {
-	
 }
 
 .contact-form {
@@ -59,3 +56,9 @@ CONTACT-FORM
 	}
 
 }
+
+.red-placeholder-text::placeholder {
+	color: red;
+}
+
+

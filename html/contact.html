@@ -24,10 +24,10 @@
 				<nav class="nav">
 					<ul class="nav__list">
 						<li class="nav__list--item">
-							<a href="../index.html">Work</a>
+							<a href="javascript:changePage('../index.html')">Work</a>
 						</li>
 						<li class="nav__list--item current-page">
-							<a href="contact.html">Contact</a>
+							<a href="javascript:changePage('contact.html')">Contact</a>
 						</li>
 					</ul>
 				</nav>
@@ -50,6 +50,10 @@
 
 						<div class="field">
 							<input type="email" id="email" name="email" class="contact-form__input" placeholder="Your Email" required>
+						</div>
+						
+						<div class="field">
+							<input type="text" id="subject" name="subject" class="contact-form__input" placeholder="subject" required>
 						</div>
 
 						<div class="field">
@@ -96,7 +100,6 @@
 		</div>	
 		
 		<script src="../js/app.js"></script>
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<script src="../js/email.js"></script>
 		
 	</body>

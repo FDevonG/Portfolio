@@ -16,3 +16,16 @@ menuIcon.addEventListener('click', () => {
 	}
 });
 
+window.onload = () => {
+	'use strict';
+	document.querySelector('body').style.opacity = '100';
+};
+
+//add a event to the nav to fade the page out when clicked
+//nav.addEventListener('click', changePage(event));
+
+function changePage (url) {
+	'use strict';
+	document.querySelector('body').style.opacity = '0';
+	setTimeout(() => window.location = url, 500);
+}
